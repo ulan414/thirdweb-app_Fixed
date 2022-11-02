@@ -42,6 +42,7 @@
   width: 100%;
   position: absolute;
   padding: 0 24px;
+  font-family: Andale Mono, monospace;
 }
 
 .page {
@@ -168,9 +169,15 @@
 .h1 {
   margin-bottom: 0px;
 }
+.asd{
+  margin-bottom: 0px;
+  font-size:100px;
+  margin-top:-70px;
+}
 
 .explain {
   font-size: 1.125rem;
+  font-family: Andale Mono, monospace;
   max-width: 1200px;
 }
 
@@ -281,6 +288,7 @@
 }
 
 .optionSelectBox {
+  background-color: #3d2359;
   border-radius: 16px;
   border: 1px solid #ccc;
   width: 48%;
@@ -294,7 +302,9 @@
   padding-right: 12px;
   cursor: pointer;
 }
-
+.dropNfff{
+  width: 70px;
+}
 .selectBoxTitle {
   font-size: 1.75rem;
   margin-top: 8px;

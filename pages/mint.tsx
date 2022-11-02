@@ -18,7 +18,7 @@ const Mint: NextPage = () => {
 
       <Web3Button
         colorMode="dark"
-        accentColor="#5204BF"
+        accentColor="#a12db3"
         contractAddress="0x1E05401D0d9cbB5d42880DF349fE2feB3c7c5d73"
         action={(contract) => contract.erc721.claim(1)}
         onSuccess={() => {

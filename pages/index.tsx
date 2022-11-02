@@ -8,6 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* Top Section */}
+      <h1 className={styles.asd}>Welcome</h1>
       <h1 className={styles.h1}>thirdweb Deploy - Custom Staking Contract</h1>
       <div className={styles.nftBoxGrid}>
         <div
@@ -16,7 +17,7 @@ const Home: NextPage = () => {
           onClick={() => router.push(`/mint`)}
         >
           {/* Mint a new NFT */}
-            <img src={`/icons/drop.webp`} alt="drop" />
+            <img src={`/icons/nft-removebg-preview.png`} alt="drop" className ={styles.dropNfff} />
             <h2 className={styles.selectBoxTitle}>Mint a new NFT</h2>
             <p className={styles.selectBoxDescription}>
               Use the NFT Drop Contract to claim an NFT from the collection.
@@ -29,7 +30,7 @@ const Home: NextPage = () => {
           onClick={() => router.push(`/stake`)}
         >
           {/* Staking an NFT */}
-          <img src={`/icons/token.webp`} alt="drop" />
+          <img src={`/icons/nft (1).png`} alt="drop"  className ={styles.dropNfff} />
           <h2 className={styles.selectBoxTitle}>Stake Your NFTs</h2>
           <p className={styles.selectBoxDescription}>
             Use the custom staking contract deployed via <b>thirdweb Deploy</b>{" "}

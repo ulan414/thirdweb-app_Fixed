@@ -21,13 +21,14 @@ button,
 textarea,
 select {
   font: inherit;
+  font-style: italic;
 }
 
 :root {
-  --black: #1c1e21;
-  --white: #ffffff;
-  --tw-color1: #a855f7;
-  --tw-color1-hover: #9333ea;
+  --black: #3f095c;
+  --white: #f4e8f4;
+  --tw-color1: #000000;
+  --tw-color1-hover: #000000;
 }
 
 body {
